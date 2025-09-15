@@ -1,11 +1,27 @@
 import './App.css'
-import Hero from './components/Hero'
+import CarFinancing from './components/CarFinancing'
+import CarModalWrapper from './components/CarModalWrapper'
+import Contact from './components/Contact'
+import Footer from './components/Footer'
+import Gallery from './components/Gallery'
+import HeroSection from './components/HeroSection'
+import Navbar from './components/Navbar'
+import WarrantySection from './components/WarrantySection'
 
 function App() {
 
   return (
     <>
-      <Hero/>
+      <Navbar/>
+      <HeroSection/>
+      <CarModalWrapper/>
+      <Gallery
+        theme='dark'
+      />
+      <WarrantySection/>
+      <CarFinancing/>
+      <Contact/>
+      <Footer/>
     </>
   )
 }
