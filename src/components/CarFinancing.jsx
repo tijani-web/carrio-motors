@@ -76,7 +76,7 @@ const CarFinancing = () => {
   const brands = [...new Set(financeData.map(item => item.brand))];
 
   return (
-    <section className="financing-section">
+    <section className="financing-section" id='finance'>
       <div className="financing-container">
         <h2 className="financing-title">Car Financing Options</h2>
         <p className="financing-subtitle">

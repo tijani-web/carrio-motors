@@ -141,8 +141,8 @@ const Navbar = () => {
         {/* Desktop Navigation */}
         <ul className="navbar__links">
           <li className="navbar__item">
-            <a
-              href="#home"
+            <NavLink
+              to="/"
               className="navbar__link"
               ref={el => navItemsRef.current[0] = el}
               onMouseEnter={() => handleNavItemHover(0)}
@@ -150,7 +150,7 @@ const Navbar = () => {
             >
               Home
               <span className="navbar__underline"></span>
-            </a>
+            </NavLink>
           </li>
     
           <li className="navbar__item">
